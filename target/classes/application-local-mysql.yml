@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:calcplay}
+    username: ${DB_USERNAME:calcplay}
+    password: ${DB_PASSWORD:calcplay-local-only}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false

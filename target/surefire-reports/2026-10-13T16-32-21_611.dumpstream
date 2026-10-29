@@ -1,0 +1,5 @@
+# Created at 2026-10-13T16:32:21.792
+Boot Manifest-JAR contains absolute paths in classpath 'H:\Java development\AI Practice project all\smart-calculator-playground\services\calculator-service\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
